@@ -1,0 +1,41 @@
+<!-- <p>child1 works!</p>
+<P>{{name}}</P>
+
+<button [disabled]="isDisabled" (click)="onClick($event)">click me</button>
+
+<input type="text" [value]="inputValue" (input)="onChange($event)">
+
+
+<input type="text" [(ngModel)]="inputValue">
+
+<div>
+    @for(user of users;track user.name){
+        @if(user.name=="Ramya")
+        {
+        <p>{{user.name}} is great</p>
+        }
+        @else{
+        <p>{{user.name}}</p>
+        }
+    }
+</div>
+
+<div *ngFor="let user of users">
+    <p *ngIf="user.name=='Ramya' else elseBlock">{{user.name}} is great</p>
+    <ng-template #elseBlock>{{user.name}}</ng-template>
+</div>
+ -->
+
+ <!-- <h1>{{name}}</h1> -->
+
+ <div>
+    @for(user of users;track user.name){
+        @if(user.name=="Ramya")
+        {
+        <p>{{user.name}} is great</p>
+        }
+        @else{
+        <p>{{user.name}}</p>
+        }
+    }
+</div>
